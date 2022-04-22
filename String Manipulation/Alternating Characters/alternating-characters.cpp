@@ -8,7 +8,7 @@ using namespace std;
 int alternatingCharacters(string s) {
     char currChar = ' '; 
     int deletionCount = 0;
-     for (int i = 0; i < s.size(); i++){
+    for (int i = 0; i < s.size(); i++){
         cout << s[i];      
         if (currChar != s[i]) {
             currChar = s[i];
